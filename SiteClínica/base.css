@@ -1,0 +1,64 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(140, 179, 179);
+    padding: 10px 20px 0px;
+    line-height: 2em;
+}
+.header {
+    background-color: rgb(191, 209, 209);
+    min-height: 150px;
+    
+
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(158, 190, 199);
+    min-height: 150px;
+}
+
+#Sobre{
+    background: url("./imagens/sobre.png"); 
+    background-size: cover;
+}
+
+#Pagina{
+    background: url("./imagens/pagina.png"); 
+    background-size: cover;
+    
+}
+
+#Horario{
+    background: url("./imagens/horarios.png");
+    background-size: cover;
+}
+
+#Contato{
+    background: url("./imagens/contato.png");
+    background-size: cover;
+
+}
+
